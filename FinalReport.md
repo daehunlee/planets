@@ -2,7 +2,7 @@
 ###**PROJECT 최종 보고서**
 
 
-![시그니처](http://www.koreatech.ac.kr/gonet/FileDownload.do?fileName=koreatech_am.jpg&amp;oriFileName=koreatech_am.jpg&amp;code=download/kor)
+![시그니처](http://blogfiles.naver.net/20151211_299/leedh1499_1449817655304fLaj0_PNG/%BD%C3%B1%D7%B4%CF%C3%B3.png)
 
 
 | 분반 | 학과 | 학번 | 이름 |
@@ -295,7 +295,7 @@ Community는 Visual Studio의 개인 사용자용 무료 버전으로, 개인 �
 - **MySQL**
 
 
- ![MySQL](http://blogfiles.naver.net/20151211_71/leedh1499_14497612435276Yit9_PNG/MySQL.png)
+![MySQL](http://blogfiles.naver.net/20151211_71/leedh1499_14497612435276Yit9_PNG/MySQL.png)
 
 
  MySQL은 세계에서 가장 많이 쓰이는 오픈 소스의 관계형 데이터베이스 관리 시스템(RDBMS)으로 데이터베이스를 관리하거나 자료를 관리한다. 다중 스레드, 다중 사용자 형식의 구조질의어 형식의 데이터베이스 관리 시스템으로서 MySQL AB가 관리 및 지원하고 있으며, Qt처럼 이중 라이선스가 적용된다.
