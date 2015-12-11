@@ -2,7 +2,7 @@
 ###**PROJECT 최종 보고서**
 
 
-![시그니처](http://www.koreatech.ac.kr/gonet/FileDownload.do?fileName=koreatech_am.jpg&amp;oriFileName=koreatech_am.jpg&amp;code=download/kor)
+![시그니처](http://blogfiles.naver.net/20151211_223/leedh1499_1449812725225nVk6z_PNG/%BD%C3%B1%D7%B4%CF%C3%B3.png)
 
 
 | 분반 | 학과 | 학번 | 이름 |
@@ -21,6 +21,7 @@
 국립환경과학원이 수도권 100가구를 대상으로 조사한 결과, 일반 가정집 냉장고에는 평균 34가지의 음식물이 보관돼 있는 것으로 나타났다. 이 중 5개월 이상 묵혀 있는 음식물도 있는 것으로 조사됐다.
 
 ![유통기한기사1](http://blogfiles.naver.net/20151209_92/leedh1499_14496298925799sg5o_PNG/%C0%AF%C5%EB%B1%E2%C7%D1%B1%E2%BB%E71.png)![유통기한기사2](http://blogfiles.naver.net/20151209_256/leedh1499_1449629515422hERIP_PNG/222222222222.png)
+
 중앙대학교 식품영양학과 연구팀에 의하면 '리스테리아'와 같은 몇몇 병원성 세균은 냉장실 온도(4~5도)에서도 생육해 식중독을 일으킬 수 있고, 냉동실은 영하 20도 이하이기 때문에 미생물 번식은 어려우나 장시간 보관 시 식품의 변형과 영양소의 손실을 야기할 수 있다고 말한다.
 이러한 상황에서, 냉장고에 들어있는 음식의 종류와 유통기한을 사용자에게 정확히 알려줄 수 있는 시스템이 필요하다.
 
@@ -53,13 +54,16 @@
   - 좋아하는 식품을 미리 설정하여 해당 식품의 수량이 사라지면, 자동으로 장바구니에 담을 수 있도록 한다.
 
  3. **유사 사례**
+
  ![유사 사례](http://blogfiles.naver.net/20151209_183/leedh1499_1449630255207i2IWk_PNG/%C0%AF%BB%E7%BB%E7%B7%CA.png)
+
  기존 제품은 카메라를 통해 바코드를 인식하는 기능이 있는데 스마트폰의 기종에 따라 카메라 성능이 달라 인식률이 매우 낮은 것을 확인했다. 또한, 어플리케이션을 통해서 사용자가 직접 식품 정보를 입력해야 사용가능하고 사용자가 좋아하는 식품에 대해서는 관리하는 기능이 없다. 
 
 3. **시스템 설계**
-
  1. **시스템 구조**
+
  ![시스템 구조](http://blogfiles.naver.net/20151209_168/leedh1499_1449630310730oxPR8_PNG/%BD%C3%BD%BA%C5%DB%B1%B8%C1%B6.png)
+
  
  2.  **시스템 기능**
   - 식품 수량 변경 (추가, 차감, 삭제) 
@@ -78,50 +82,90 @@
 
  3. **기능에 대한 모듈**
   - 식품 추가 모듈(냉장고 - 바코드 리더기 사용)
+
 ![식품 추가 모듈(냉장고 - 바코드 리더기 사용)](http://blogfiles.naver.net/20151210_268/leedh1499_1449758508494cLB2k_PNG/%BD%C4%C7%B0%C3%DF%B0%A1%B8%F0%B5%E2%28%B3%C3%C0%E5%B0%ED-%B9%D9%C4%DA%B5%E5%B8%AE%B4%F5%B1%E2%BB%E7%BF%EB%29.png)
+
   - 식품 추가 모듈(냉장고 - 사용자 입력)
+
 ![식품 추가 모듈(냉장고 - 사용자 입력)](http://blogfiles.naver.net/20151210_203/leedh1499_1449758468888QLx1B_PNG/%BD%C4%C7%B0%C3%DF%B0%A1%B8%F0%B5%E2%28%B3%C3%C0%E5%B0%ED-%BB%E7%BF%EB%C0%DA%C0%D4%B7%C2%29.png)
+
   - 식품 추가 모듈(스마트폰 - 사용자 입력)
+
 ![식품 추가 모듈(스마트폰 - 사용자 입력)](http://blogfiles.naver.net/20151210_212/leedh1499_1449758687902odMta_PNG/%BD%C4%C7%B0%C3%DF%B0%A1%B8%F0%B5%E2%28%BD%BA%B8%B6%C6%AE%C6%F9-%BB%E7%BF%EB%C0%DA%C0%D4%B7%C2%29.png)
+
   - 식품 차감 및 삭제 모듈(냉장고 - 바코드 리더기 사용)
+
 ![식품 차감 및 삭제 모듈(냉장고 - 바코드 리더기 사용)](http://blogfiles.naver.net/20151210_87/leedh1499_1449758772834zdc2Q_PNG/%BD%C4%C7%B0%C2%F7%B0%A8%B9%D7%BB%E8%C1%A6%B8%F0%B5%E2%28%B3%C3%C0%E5%B0%ED-%B9%D9%C4%DA%B5%E5%B8%AE%B4%F5%B1%E2%BB%E7%BF%EB%29.png) 
+
   - 식품 차감 및 삭제 모듈(냉장고 - 사용자 입력)
+
 ![식품 차감 및 삭제 모듈(냉장고 - 사용자 입력)](http://blogfiles.naver.net/20151210_84/leedh1499_1449758960158BmnI0_PNG/%BD%C4%C7%B0%C2%F7%B0%A8%B9%D7%BB%E8%C1%A6%B8%F0%B5%E2%28%B3%C3%C0%E5%B0%ED-%BB%E7%BF%EB%C0%DA%C0%D4%B7%C2%29.png)
+
   - 식품 리스트 출력 모듈
+
 ![식품 리스트 출력 모듈](http://blogfiles.naver.net/20151210_236/leedh1499_14497591396915MnsO_PNG/%BD%C4%C7%B0%B8%AE%BD%BA%C6%AE%C3%E2%B7%C2%B8%F0%B5%E2.png)
+
   - 유통기한 계산 모듈
+
 ![유통기한 계산 모듈](http://blogfiles.naver.net/20151210_225/leedh1499_1449759316235nkYQR_PNG/%C0%AF%C5%EB%B1%E2%C7%D1%B0%E8%BB%EA%B8%F0%B5%E2.png)
+
   - 유통기한 알림 모듈
+
 ![유통기한 알림 모듈](http://blogfiles.naver.net/20151210_296/leedh1499_1449759417184QPK3W_PNG/%C0%AF%C5%EB%B1%E2%C7%D1%BE%CB%B8%B2%B8%F0%B5%E2.png)
+
   - 칼로리 계산 모듈
+
 ![칼로리 계산 모듈](http://blogfiles.naver.net/20151211_113/leedh1499_1449759815151v4in9_PNG/%C4%AE%B7%CE%B8%AE%B0%E8%BB%EA%B8%F0%B5%E2.png)
+
   - Favorite 설정 모듈
+
 ![Favorite 설정 모듈](http://blogfiles.naver.net/20151211_255/leedh1499_1449759833420MKwBR_PNG/Favorite%BC%B3%C1%A4%B8%F0%B5%E2.png)
+
   - 쇼핑몰 연동 모듈
+
 ![쇼핑몰 연동 모듈](http://blogfiles.naver.net/20151211_104/leedh1499_1449759887380vQ667_PNG/%BC%EE%C7%CE%B8%F4%BF%AC%B5%BF%B8%F0%B5%E2.png)
+
 
 4. **시스템 상세 설계**
 
  1. **UML**
+
 ![UML](http://blogfiles.naver.net/20151211_115/leedh1499_1449760003461V5eGn_PNG/UML.png)
+
 
  2. **NS-도표**
   - 식품 추가 모듈(냉장고 - 바코드 리더기 사용)
+
 ![식품 추가 모듈(냉장고 - 바코드 리더기 사용)_NS도표](http://blogfiles.naver.net/20151211_289/leedh1499_14497601273420bHn6_PNG/%BD%C4%C7%B0%C3%DF%B0%A1%B8%F0%B5%E2%28%B3%C3%C0%E5%B0%ED-%B9%D9%C4%DA%B5%E5%B8%AE%B4%F5%B1%E2%BB%E7%BF%EB%29_NS%B5%B5%C7%A5.png)
+
   - 식품 차감 및 삭제 모듈(냉장고 - 바코드 리더기 사용)
+
 ![식품 차감 및 삭제 모듈(냉장고 - 바코드 리더기 사용)_NS도표](http://blogfiles.naver.net/20151211_90/leedh1499_14497602291692diJo_PNG/%BD%C4%C7%B0%C2%F7%B0%A8%B9%D7%BB%E8%C1%A6%B8%F0%B5%E2%28%B3%C3%C0%E5%B0%ED-%B9%D9%C4%DA%B5%E5%B8%AE%B4%F5%B1%E2%BB%E7%BF%EB%29_NS%B5%B5%C7%A5.png)
+
   - 식품 리스트 출력 모듈
+
 ![식품 리스트 출력 모듈_NS도표](http://blogfiles.naver.net/20151211_66/leedh1499_1449760364824Y9sSe_PNG/%BD%C4%C7%B0%B8%AE%BD%BA%C6%AE%C3%E2%B7%C2%B8%F0%B5%E2_NS%B5%B5%C7%A5.png)
+
   - 유통기한 계산 모듈
+
 ![유통기한 계산 모듈](http://blogfiles.naver.net/20151211_240/leedh1499_1449760434986XnFvl_PNG/%C0%AF%C5%EB%B1%E2%C7%D1%B0%E8%BB%EA%B8%F0%B5%E2_NS%B5%B5%C7%A5.png)
+
   - 유통기한 알림 모듈
+
 ![유통기한 알림 모듈](http://blogfiles.naver.net/20151211_100/leedh1499_1449760493725UQxkD_PNG/%C0%AF%C5%EB%B1%E2%C7%D1%BE%CB%B8%B2%B8%F0%B5%E2_NS%B5%B5%C7%A5.png)
+
   - 칼로리 계산 모듈
+
 ![칼로리 계산 모듈](http://blogfiles.naver.net/20151211_259/leedh1499_1449760543191rt9iF_PNG/%C4%AE%B7%CE%B8%AE%B0%E8%BB%EA%B8%F0%B5%E2_NS%B5%B5%C7%A5.png)
+
   - Favorite 설정 모듈
+
 ![Favorite 설정 모듈](http://blogfiles.naver.net/20151211_143/leedh1499_144976068148238hmI_PNG/Favorite%BC%B3%C1%A4%B8%F0%B5%E2_NS%B5%B5%C7%A5.png)
+
   - 쇼핑몰 연동 모듈
+ 
 ![쇼핑몰 연동 모듈](http://blogfiles.naver.net/20151211_112/leedh1499_1449760736554xeuhe_PNG/%BC%EE%C7%CE%B8%F4%BF%AC%B5%BF%B8%F0%B5%E2_NS%B5%B5%C7%A5.png)
+
 
  3. **구현에 필요한 기술**
   - 클라이언트/서버 모델
@@ -131,18 +175,26 @@
 
  3. **개발환경**
   - Visual Studio 2015 Community
+
 ![Visual Studio 2015 Community](http://blogfiles.naver.net/20151211_172/leedh1499_1449761013054jat6h_PNG/VisualStudio2015Community.png)
+
 비주얼 스튜디오는 마이크로소프트에서 개발한 통합 개발환경(IDE)을 말한다. 1997년 Microsoft C/C++ 컴파일러를 Visual C++로 개명하면서 Visual Basic을 함께 통합한 패키지로써 Visual Studio로써 내놓은 것을 시초로 한다. 윈도우 개발환경에서는 가장 접근성이 좋은 IDE로 꼽힌다.
 Community는 Visual Studio의 개인 사용자용 무료 버전으로, 개인 개발자가 비용을 지불하지 않고 Visual Studio를 통해 개발할 수 있으며 상업용 앱을 개발하는 것도 가능하다. 또한 기업이 아닌 5인 조직의 동시 사용을 허락한다. 팀 구성원 또한 익숙한 개발환경이기 때문에 적응하는 데에도 문제가 없다.
   - Android Studio
+
 ![Android Studio](http://blogfiles.naver.net/20151211_283/leedh1499_1449761175586EcTrF_PNG/AndroidStudio.png)
+
 안드로이드는 모바일 OS 플랫폼으로 구글에서 개발된 운영체제이다. 오픈 소스의 정책으로 소스가 공개되어 있어, 많은 회사들이 자신의 단말기를 만들고 안드로이드 OS를 탑재시켜 판매할 수 있다. 안드로이드를 개발할 수 있는 Android Studio를 SDK로 제공해 주며, 개발에 필요한 각종 도구들과 API를 제공한다. 안드로이드는 자바 기반의 언어를 사용하며 레이아웃은 XML을 사용한다.
   - MySQL
+
   ![MySQL](http://blogfiles.naver.net/20151211_71/leedh1499_14497612435276Yit9_PNG/MySQL.png)
+
   MySQL은 세계에서 가장 많이 쓰이는 오픈 소스의 관계형 데이터베이스 관리 시스템(RDBMS)으로 데이터베이스를 관리하거나 자료를 관리한다. 다중 스레드, 다중 사용자 형식의 구조질의어 형식의 데이터베이스 관리 시스템으로서 MySQL AB가 관리 및 지원하고 있으며, Qt처럼 이중 라이선스가 적용된다.
 MySQL은 GUI 관리툴은 내장되어 있지 않다. 따라서 이용자들은 명령 줄 인터페이스 도구들을 이용하거나 또는 데이터베이스를 만들고, 관리하는데, 데이터를 백업하는데, 상태를 검사하고, 데이터베이스 구조를 생성하거나 데이터 레코더를 작성하는데 있어서 MySQL 프론트엔드 데스크톱 소프트웨어나 웹 애플리케이션을 사용해야 한다.
   - Linux(Ubuntu)
+
 ![Linux(Ubuntu)](http://blogfiles.naver.net/20151211_126/leedh1499_1449761357750xmpiW_PNG/Linux%28Ubuntu%29.png)
+
 Ubuntu는 컴퓨터에서 프로그램과 주변기기를 사용할 수 있도록 해주는 운영체제 중 하나다. 안드로이드 운영체제처럼 리눅스 커널 기반 운영체제로 모바일과 데스크톱PC, 서버에도 Ubuntu 운영체제를 설치해 사용할 수 있다. 전 세계 개발자들이 Ubuntu재단의 지원을 받아 무료로 사용할 수 있는 오픈소스 운영체제다. 소스코드가 공개된 덕분에 우분투는 누구나 내려 받아 무료로 사용할 수 있다.
 
 5. **평가 계획**
@@ -169,11 +221,17 @@ Ubuntu는 컴퓨터에서 프로그램과 주변기기를 사용할 수 있도�
 
  5. **평가 ㆍ설문지**
   - 그룹 0(전문 평가원) 평가지
+ 
 ![그룹 0 평가지](http://blogfiles.naver.net/20151211_11/leedh1499_1449762725834FDByS_PNG/%B1%D7%B7%EC0.png)
+
   - 그룹 1(파워블로거 / 얼리어답터) 설문지
+ 
 ![그룹 1 설문지](http://blogfiles.naver.net/20151211_130/leedh1499_14497629465277vE9u_PNG/%B1%D7%B7%EC1.png)
+
   - 그룹 2(가정주부) 설문지
+ 
 ![그룹 2 설문지](http://blogfiles.naver.net/20151211_120/leedh1499_1449763305505cVNOQ_PNG/%B1%D7%B7%EC2.png)
+
 
 6. **과제 수행 소감**
 **김정진** : 마치 1년 이상동안 진행한 졸업 작품을 16주에 해낸 기분이다. 물론 구현은 하지 않았지만 아이디어 내는 것부터 시작하여, 설계부터 보고서작성까지 짧은 시간에 많은 것들을 복습할 수 있었다.
