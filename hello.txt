@@ -1,2 +1,4 @@
 daehyun : hello
 jeongjin : hi hi!
+daehyun : nice to meet you!
+daehyun : email miss!
